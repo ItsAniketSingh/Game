@@ -110,7 +110,7 @@ class TTTBoard{
     }
 }
 
-public class TicTacToe
+public class TicTacToeWithComputer
 {
     public static void main(String[]args)
     {
