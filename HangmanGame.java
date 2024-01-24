@@ -12,6 +12,7 @@ public class HangmanGame {
 
        
         for (int i = 0; i < guessedWord.length; i++) {
+
             guessedWord[i] = '_';
         }
 
@@ -45,12 +46,15 @@ public class HangmanGame {
                     }
                 }
             } else {
+
                 System.out.println("Incorrect guess!");
                 attempts--;
             }
 
             // Check if the player has guessed the entire word
+            
             if (String.valueOf(guessedWord).equals(selectedWord)) {
+
                 System.out.println("Congratulations! You've guessed the word: " + selectedWord);
                 break;
             }

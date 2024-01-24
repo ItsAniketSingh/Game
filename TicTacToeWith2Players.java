@@ -10,6 +10,8 @@ public class TicTacToeWith2Players {
 
         initializeBoard(board);
 
+
+
         while (true) {
             printBoard(board);
             System.out.println("Player " + currentPlayer + ", enter row (1-3) and column (1-3) separated by space: ");
@@ -38,6 +40,8 @@ public class TicTacToeWith2Players {
         }
 
         scanner.close();
+
+
     }
 
     private static void initializeBoard(char[][] board) {
@@ -53,6 +57,8 @@ public class TicTacToeWith2Players {
             for (int j = 0; j < 3; j++) {
                 System.out.print(board[i][j] + " ");
             }
+
+            
             System.out.println();
         }
     }

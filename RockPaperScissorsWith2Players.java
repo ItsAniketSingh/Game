@@ -23,10 +23,15 @@ public class RockPaperScissorsWith2Players {
             System.out.println("Player 1's move: " + player1Move);
             System.out.println("Player 2's move: " + player2Move);
             if (player1Move.equals(player2Move)) {
+
                 System.out.println("It's a tie!");
             } else if ((player1Move.equals("r") && player2Move.equals("s")) ||
                     (player1Move.equals("p") && player2Move.equals("r")) ||
                     (player1Move.equals("s") && player2Move.equals("p"))) {
+
+
+
+                        
                 System.out.println("Player 1 wins!");
             } else {
                 System.out.println("Player 2 wins!");
