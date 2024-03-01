@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import java.io.IOException;
 
 /**
@@ -201,5 +201,5 @@ public class FallingSand {
 
         }
     }
->>>>>>> 12357eb (Falling Sand Simulation)
+
 }
