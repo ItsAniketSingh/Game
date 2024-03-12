@@ -1,5 +1,7 @@
-
 import java.util.Scanner;
+
+
+
 
 
 public class RockPaperScissorsWith2Players {
@@ -29,9 +31,6 @@ public class RockPaperScissorsWith2Players {
                     (player1Move.equals("p") && player2Move.equals("r")) ||
                     (player1Move.equals("s") && player2Move.equals("p"))) {
 
-
-
-                        
                 System.out.println("Player 1 wins!");
             } else {
                 System.out.println("Player 2 wins!");
